@@ -42,3 +42,43 @@ body {
   font-weight: bold;
   color: black;
   border: solid; }
+
+.btn-primary {
+  display: inline-block;
+  color: #fff;
+  letter-spacing: 0;
+  font-family: rubik,sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 46px;
+  outline: none !important;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+  border: double 2px transparent;
+  box-shadow: 0 10px 30px rgba(118, 85, 225, 0.3);
+  transition: all .3s ease-in-out;
+  text-decoration: none; }
+  .btn-primary span {
+    padding: 0 42px; }
+  .btn-primary:hover {
+    background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #854fee);
+    border: 2px solid #854fee;
+    color: #222;
+    box-shadow: none;
+    background-clip: border-box;
+    text-decoration: none; }
+  .btn-primary__outline {
+    background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #854fee);
+    border: 2px solid transparent;
+    color: #222;
+    box-shadow: none; }
+    .btn-primary__outline:hover {
+      background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+      border: double 2px transparent;
+      color: #fff;
+      box-shadow: 0 10px 30px rgba(118, 85, 225, 0.3); }
